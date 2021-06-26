@@ -12,6 +12,11 @@
 		0A1E93282684CDE2005C6F61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1E93262684CDE2005C6F61 /* Main.storyboard */; };
 		0A1E932A2684CDE3005C6F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1E93292684CDE3005C6F61 /* Assets.xcassets */; };
 		0A1E932D2684CDE3005C6F61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1E932B2684CDE3005C6F61 /* LaunchScreen.storyboard */; };
+		0A1E93392684CFB4005C6F61 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E93382684CFB4005C6F61 /* FirstVC.swift */; };
+		0A1E933C2684CFD5005C6F61 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E933B2684CFD5005C6F61 /* SecondVC.swift */; };
+		0A1E933E2684CFE7005C6F61 /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E933D2684CFE7005C6F61 /* ThirdVC.swift */; };
+		E76678622687C01F00135B58 /* FourthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76678602687C01F00135B58 /* FourthVC.swift */; };
+		E76678632687C01F00135B58 /* FourthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E76678612687C01F00135B58 /* FourthVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		0A1E93292684CDE3005C6F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A1E932C2684CDE3005C6F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A1E932E2684CDE3005C6F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A1E93382684CFB4005C6F61 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		0A1E933B2684CFD5005C6F61 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		0A1E933D2684CFE7005C6F61 /* ThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
+		E76678602687C01F00135B58 /* FourthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthVC.swift; sourceTree = "<group>"; };
+		E76678612687C01F00135B58 /* FourthVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourthVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,10 @@
 		0A1E93342684CE3E005C6F61 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0A1E93382684CFB4005C6F61 /* FirstVC.swift */,
+				0A1E933B2684CFD5005C6F61 /* SecondVC.swift */,
+				0A1E933D2684CFE7005C6F61 /* ThirdVC.swift */,
+				E76678602687C01F00135B58 /* FourthVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -92,6 +106,7 @@
 			children = (
 				0A1E93262684CDE2005C6F61 /* Main.storyboard */,
 				0A1E932B2684CDE3005C6F61 /* LaunchScreen.storyboard */,
+				E76678612687C01F00135B58 /* FourthVC.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -156,6 +171,7 @@
 			files = (
 				0A1E932D2684CDE3005C6F61 /* LaunchScreen.storyboard in Resources */,
 				0A1E932A2684CDE3005C6F61 /* Assets.xcassets in Resources */,
+				E76678632687C01F00135B58 /* FourthVC.xib in Resources */,
 				0A1E93282684CDE2005C6F61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,8 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76678622687C01F00135B58 /* FourthVC.swift in Sources */,
 				0A1E93212684CDE2005C6F61 /* AppDelegate.swift in Sources */,
+				0A1E93392684CFB4005C6F61 /* FirstVC.swift in Sources */,
+				0A1E933C2684CFD5005C6F61 /* SecondVC.swift in Sources */,
 				0A1E93232684CDE2005C6F61 /* SceneDelegate.swift in Sources */,
+				0A1E933E2684CFE7005C6F61 /* ThirdVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
